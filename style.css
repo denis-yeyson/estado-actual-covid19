@@ -1,0 +1,28 @@
+body {
+   font-family: 'Roboto Condensed',
+      sans-serif;
+}
+
+.titulo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 6rem;
+   margin-bottom: 2rem;
+}
+
+.titulo--center {
+   font-size: 2rem;
+   padding: 1rem 0;
+   height: 3rem;
+   border-radius: 2.5rem;
+   padding: 1rem 2rem;
+   color: #fff;
+   background-color: #4C5EFC;
+}
+
+canvas {
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}

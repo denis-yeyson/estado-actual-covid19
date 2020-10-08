@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" href="covid19.png" sizes="16x16">
+   <!-- Angular 9 -->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+   <!-- CHART JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+   <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>Estado Actual Perú - Covid19</title>
+
+</head>
+
+<body>
+   <div class="titulo">
+      <label class="titulo--center">Estado actual del Covid19 en el Perú</label>
+   </div>
+   <div class="contenerdor">
+      <h2 style="text-align: center;color:#000;"> Total por región</h2>
+      <h4 style="text-align: center;color:gray;">Dar doble click en el cuadro rosa para actualizar y mostrar datos</h4>
+      <canvas id="myChart" width="900" height="300"></canvas>
+   </div>
+   <div class="contenedor">
+      <h2 style="text-align: center;color:#000;"> Grafico comparativo entre muestras y positivos
+      </h2>
+      <h4 style="text-align: center;color:gray;">Dar doble click en el cuadro rosa o celeste para actualizar y mostrar
+         datos</h4>
+      <canvas id="canvas" width="900" height="400"></canvas>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+   </script>
+   <script src="script.js"></script>
+</body>
+
+</html>
